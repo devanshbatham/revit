@@ -35,7 +35,7 @@ func main() {
      / /  /  __/ |/ / / /_  
     /_/   \___/|___/_/\__/  
                          
-            -  Reverse DNS Lookup Utility
+            -  A Reverse DNS Lookup Utility
  
 `)
 
