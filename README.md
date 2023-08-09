@@ -16,7 +16,7 @@
 ![revit](https://github.com/devanshbatham/revit/blob/main/static/revit.png?raw=true)
 
 # Install
-To install revit, follow these steps:
+To install revit, run the following command:
 
 ```sh
 go install github.com/devanshbatham/revit/cmd/revit@v0.0.1
