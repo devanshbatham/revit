@@ -58,6 +58,6 @@ Here are the available command-line flags:
 
 # Inspiration
 
-**revit** was born out of curiosity and a desire to explore Golang. While there are existing tools like [hakrevdns](https://github.com/hakluke/hakrevdns) that perform similar tasks, I decided to create this utility as a personal project to further my understanding of Go and enhance my programming skills.
+**revit** was born out of curiosity and a desire to explore Golang. While there are existing tools like [hakrevdns](https://github.com/hakluke/hakrevdns) that perform similar tasks (and I have immense resprect for them), I decided to create this utility as a personal project to further my understanding of Go and enhance my programming skills.
 
 The development of **revit** started as an exploration into concurrent programming and networking in Go. As I tinkered with the language's features and learned more about its capabilities, the utility began to take shape. 
