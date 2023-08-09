@@ -5,7 +5,7 @@
 
 <h4 align="center">A command-line utility for performing reverse DNS lookups</h4>
 
-<!-- Introduction and Navigation Links -->
+
 <p align="center">
   <a href="#install">🏗️ Install</a>
   <a href="#usage">⛏️ Usage</a>
@@ -14,15 +14,14 @@
 
 
 
-<!-- Install Section -->
 # Install
 To install the Reverse DNS Lookup Utility, follow these steps:
 
 ```sh
-go -v install github.com/devanshbatham/revit/cmd/revit@v0.0.1
+go install github.com/devanshbatham/revit/cmd/revit@v0.0.1
 ```
 
-<!-- Usage Section -->
+
 # Usage
 This utility allows you to perform reverse DNS lookups on IP addresses. Here are some examples of how to use the tool:
 
@@ -54,7 +53,6 @@ Here are the available command-line flags:
 | `-c`        | Set the level of concurrency for concurrent DNS lookups (default: 10). | `revit -c 20`              |
 | `-r`        | Specify resolvers for reverse DNS lookup.                         | `revit -r "8.8.8.8"`       |
 |             | You can provide a single IP address or a path to a file.          | `revit -r resolvers.txt`   |
-
 
 
 
