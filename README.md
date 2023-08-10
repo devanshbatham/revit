@@ -49,10 +49,10 @@ Here are the available command-line flags:
 
 | Flag        | Description                                                        | Example                    |
 |-------------|--------------------------------------------------------------------|----------------------------|
-| `-i`        | Specify a single target IP address for reverse DNS lookup.        | `revit -i "8.8.8.8"`    |
+| `-i`        | Specify a single target IP address for reverse DNS lookup.        | `revit -i 8.8.8.8`    |
 | `-l`        | Provide the path to a file containing a list of IP addresses.     | `revit -l ip_list.txt`     |
 | `-c`        | Set the level of concurrency for concurrent DNS lookups (default: 10). | `revit -c 20`              |
-| `-r`        | Specify resolvers for reverse DNS lookup.                         | `revit -r "8.8.8.8"`       |
+| `-r`        | Specify resolvers for reverse DNS lookup.                         | `revit -r 8.8.8.8`       |
 |             | You can provide a single IP address or a path to a file.          | `revit -r resolvers.txt`   |
 
 
